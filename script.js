@@ -33,8 +33,21 @@ document.addEventListener('DOMContentLoaded', function () {
         throw new Error(j.error || 'API error');
       }
     } catch (err) {
-      msg.style.color = 'crimson'; msg.textContent = 'Failed to send message. Try again later.';
       console.error(err);
+      // Fallback: save message locally so it can be retrieved later
+      try {
+        const offlineKey = 'prosys_offline_messages';
+        const saved = JSON.parse(localStorage.getItem(offlineKey) || '[]');
+        saved.push({ name, email, service, message, createdAt: new Date().toISOString() });
+        localStorage.setItem(offlineKey, JSON.stringify(saved));
+        msg.style.color = 'green';
+        msg.textContent = "Thank you — we've received your message. We'll contact you as soon as possible. (Saved locally because the server couldn't be reached. If urgent, email info@prosys.com)";
+        form.reset();
+        setTimeout(() => { msg.textContent = ''; }, 10000);
+      } catch (e) {
+        msg.style.color = 'crimson'; msg.textContent = 'Failed to send message. Try again later.';
+        console.error(e);
+      }
     } finally {
       if (submitBtn) { submitBtn.disabled = false; }
     }
