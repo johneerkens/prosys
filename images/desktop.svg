@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260" fill="none">
+  <rect rx="12" width="400" height="260" fill="#ffffff"/>
+  <rect x="36" y="36" width="328" height="120" rx="8" fill="#f1f5f9" stroke="#e2eefb"/>
+  <rect x="140" y="164" width="120" height="18" rx="4" fill="#e6eef8"/>
+  <rect x="92" y="188" width="216" height="12" rx="3" fill="#eef6ff"/>
+  <text x="200" y="110" font-family="Inter, Arial" font-size="22" fill="#6b7280" text-anchor="middle">Dell OptiPlex</text>
+</svg>
