@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Prosys — IT Solutions & Dell Hardware</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="logo" href="#">Prosys</a>
+			<nav class="nav">
+				<a href="#services">Services</a>
+				<a href="#products">Products</a>
+				<a href="#support">Support</a>
+				<a href="#contact" class="btn">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="container">
+				<h1>Prosys — Trusted Dell Reseller & IT Support</h1>
+				<p>Buy Dell laptops, desktops and accessories. Get remote or onsite IT support focused on Microsoft ecosystems.</p>
+				<a href="#products" class="cta">Shop Dell Hardware</a>
+			</div>
+		</section>
+
+		<section id="services" class="container services">
+			<h2>Our Services</h2>
+			<div class="grid">
+				<div class="card">
+                    <div class="product-image"><img src="images/AdobeStock_sales.jpeg" alt="Hardware & software Sales"></div>
+					<h3>Hardware & Software Sales</h3>
+					<p>We specialize in the sale of high-quality hardware and software solutions. Our offerings include Dell and Microsoft.</p>
+                    <p>Specific hardware or software requests can be arranged by contacting the owner or our sales representative.</p>
+				</div>
+				<div class="card">
+                    <div class="product-image"><img src="images/remote_support.jpg" alt="Remote & Onsite Support"></div>
+					<h3>Remote & Onsite Support</h3>
+					<p>Printer troubleshooting, network issues, device setup and more — remote or at your site.</p>
+				</div>
+				<div class="card">
+                    <div class="product-image"><img src="images/Microsoft.png" alt="Microsoft Account Management"></div>
+					<h3>Microsoft Account Management</h3>
+					<p>Support focused on Microsoft services and accounts so your users stay productive.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="products" class="container products">
+			<h2>Featured Products</h2>
+			<div class="grid">
+				<div class="product">
+					<div class="product-image"><img src="images/laptop_dell_pro_16.avif" alt="Dell Pro 16"></div>
+					<h4>Dell Pro 16</h4>
+					<p>Business-class laptop — reliable performance and long battery life.</p>
+					<a class="small-btn" href="#contact">Request Quote</a>
+				</div>
+				<div class="product">
+					<div class="product-image"><img src="images/desktop_pro_micro.avif" alt="Dell Pro Micro Plus"></div>
+					<h4>Dell Pro Micro Plus</h4>
+					<p>Compact desktop for office use with strong manageability.</p>
+					<a class="small-btn" href="#contact">Request Quote</a>
+				</div>
+				<div class="product">
+					<div class="product-image"><img src="images/monitor_dell_pro_24.avif" alt="Monitors and Peripherals"></div>
+					<h4>Monitors & Peripherals</h4>
+					<p>Monitors, docking stations, printers and accessories.</p>
+					<a class="small-btn" href="#contact">Request Quote</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="support" class="container support">
+			<h2>Support Plans</h2>
+			<p>Flexible support — by-incident, monthly, or annual contracts. We specialize in Microsoft-first environments.</p>
+			<ul>
+				<li>Remote Troubleshooting via Teamviewer</li>
+				<li>Onsite visits</li>
+				<li>Account & Licensing Help (Microsoft)</li>
+			</ul>
+		</section>
+
+		<section id="contact" class="container contact">
+			<h2>Contact Us</h2>
+			<form id="contactForm">
+				<div class="form-row">
+					<label for="name">Name</label>
+					<input id="name" name="name" required />
+				</div>
+				<div class="form-row">
+					<label for="email">Email</label>
+					<input id="email" name="email" type="email" required />
+				</div>
+				<div class="form-row">
+					<label for="service">Service of interest</label>
+					<select id="service" name="service">
+						<option>Hardware Purchase</option>
+						<option>Remote Support</option>
+						<option>Onsite Support</option>
+						<option>Microsoft Account Help</option>
+					</select>
+				</div>
+				<div class="form-row">
+					<label for="message">Message</label>
+					<textarea id="message" name="message" rows="4"></textarea>
+				</div>
+				<div class="form-row">
+					<button type="submit" class="btn">Send Message</button>
+					<span id="formMsg" class="form-msg" aria-live="polite"></span>
+				</div>
+			</form>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<div>
+				<strong>Prosys</strong>
+				<p>Sales · Support · Microsoft-focused</p>
+			</div>
+			<div>
+				<p>Email: info@prosys.com</p>
+				<p>Phone: +32(0)475593494</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
