@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260" fill="none">
+  <rect rx="12" width="400" height="260" fill="#ffffff"/>
+  <rect x="24" y="28" width="352" height="176" rx="10" fill="#f1f5f9" stroke="#e2eefb"/>
+  <rect x="72" y="212" width="256" height="16" rx="4" fill="#e6eef8"/>
+  <rect x="40" y="232" width="320" height="12" rx="3" fill="#eef6ff"/>
+  <text x="200" y="118" font-family="Inter, Arial" font-size="24" fill="#6b7280" text-anchor="middle">Dell Latitude</text>
+</svg>

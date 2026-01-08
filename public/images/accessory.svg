@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260" fill="none">
+  <rect rx="12" width="400" height="260" fill="#ffffff"/>
+  <circle cx="200" cy="96" r="44" fill="#f1f5f9" stroke="#e2eefb"/>
+  <rect x="100" y="152" width="200" height="14" rx="6" fill="#eef6ff"/>
+  <text x="200" y="102" font-family="Inter, Arial" font-size="18" fill="#6b7280" text-anchor="middle">Monitors & Peripherals</text>
+</svg>

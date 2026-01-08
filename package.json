@@ -1,0 +1,22 @@
+{
+  "name": "prosys",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prosys Next.js site with contact API",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "prosys",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.1"
+  }
+}
