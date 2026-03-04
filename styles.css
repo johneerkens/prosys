@@ -82,10 +82,11 @@ body{
   gap:1rem
 }
 .card,.product{
-  background:#fff;
-  padding:1.25rem;
-  border-radius:8px;
-  border:1px solid #eef3fb
+  background:var(--card);
+  padding:1.5rem;
+  border-radius:12px;
+  box-shadow:var(--shadow);
+  transition:transform .25 ease, box-shadow .25s ease;
 }
 .card h3{
   margin-top:0
