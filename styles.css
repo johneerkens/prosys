@@ -56,8 +56,8 @@ body{
   text-decoration:none
 }
 .hero{
-  background:linear-gradient(135deg,#eaf3ff,white);
-  padding:4rem 0;
+  background:linear-gradient(180deg,#eef4ff,#ffffff);
+  padding:5rem 0;
   text-align:center
 }
 .hero h1{
@@ -66,7 +66,9 @@ body{
 }
 .hero p{
   color:var(--muted);
-  margin:0 0 1rem
+  font-size:1.05rem;
+  max-width:640px;
+  margin:0 auto 1.5rem auto;
 }
 .cta{
   display:inline-block;
@@ -87,6 +89,10 @@ body{
   border-radius:12px;
   box-shadow:var(--shadow);
   transition:transform .25 ease, box-shadow .25s ease;
+}
+.card:hover,.product:hover{
+  transform:translateY(-4px);
+  box-shadow:0 12px 32px rgba(15,23,42,0.08);
 }
 .card h3{
   margin-top:0
