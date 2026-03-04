@@ -110,25 +110,25 @@
 			<form id="contactForm">
 				<div class="form-row">
 					<label for="name">Name</label>
-					<input id="name" name="name" required />
+					<input id="name" name="name" type="text" required />
 				</div>
 				<div class="form-row">
 					<label for="client">Client</label>
-					<input id="client" name="client" required/>
+					<input id="client" name="client" type="text" required/>
 				</div>
 				<div class="form-row">
 					<label for="email">Email</label>
-					<input id="email" name="email" type="email" required />
+					<input id="email" name="email" type="email" required autocomplete="email" />
 				</div>
 				<div class="form-row">
 					<label for="service">Service of interest</label>
 					<select id="service" name="service">
-						<option>Choose a service</option>
-						<option>Purchases</option>
-						<option>Consultancy</option>
-						<option>Remote Support</option>
-						<option>Onsite Support</option>
-						<option>Microsoft Support</option>
+						<option value="">Choose a service</option>
+						<option value="Purchases">Purchases</option>
+						<option value="Consultancy">Consultancy</option>
+						<option value="Remote Support">Remote Support</option>
+						<option value="Onsite Support">Onsite Support</option>
+						<option value="Microsoft Support">Microsoft Support</option>
 						<option>Other</option>
 					</select>
 				</div>
